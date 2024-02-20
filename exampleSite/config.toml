@@ -1,14 +1,10 @@
 baseUrl = ""
 title = "Distill Hugo Theme"
-author = "Sanyam Kapoor"
 canonifyurls = true
 theme = "distillpub"
 
-[taxonomies]
-  name = "Josh Marks"
-  homepage = "https://joshmarks.xyz"
-
 [params]
+  Author = "Josh Marks"
   description = "Distill Hugo Theme Demo"
   keywords = ["hugo", "distill", "theme"]
   sourcePrefix = "https://github.com/activatedgeek/distillpub/blob/master/exampleSite"

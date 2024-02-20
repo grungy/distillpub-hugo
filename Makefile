@@ -1,5 +1,5 @@
 THEMES_DIR := ../..
-BUILD_OPTS := -D -v --themesDir $(THEMES_DIR)
+BUILD_OPTS := -D --logLevel info --themesDir $(THEMES_DIR)
 BUILD_DIR := exampleSite
 
 all:

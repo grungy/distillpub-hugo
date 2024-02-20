@@ -1,12 +1,8 @@
 name = "distillpub"
 license = "MIT"
-licenselink = "https://github.com/activatedgeek/distillpub/blob/master/LICENSE"
+licenselink = "https://github.com/grungy/distillpub-template/blob/master/LICENSE"
 description = "Hugo theme for Distill articles"
-homepage = "https://github.com/activatedgeek/distillpub"
+homepage = "https://github.com/grungy/distillpub-template"
 tags = []
 features = []
 min_version = "0.55"
-
-[author]
-  name = "Josh Marks"
-  homepage = "https://joshmarks.xyz"

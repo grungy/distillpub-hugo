@@ -25,10 +25,10 @@
   <meta name="keywords" content='{{ delimit .Site.Params.Keywords "," }}' />
 {{- end -}}
 
-{{- if .Author -}}
-  <meta name="author" content='{{ .Author }}' />
-{{ else if .Authors }}
-  <meta name="author" content='{{ delimit .Authors "," }}' />
+{{- if .Site.Params.Author -}}
+  <meta name="author" content='{{ .Site.Params.Author }}' />
+{{ else if .Site.Params.Author }}
+  <meta name="author" content='{{ delimit .Site.Params.Author "," }}' />
 {{- end -}}
 
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
