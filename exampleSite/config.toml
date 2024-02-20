@@ -5,7 +5,8 @@ canonifyurls = true
 theme = "distillpub"
 
 [taxonomies]
-# TODO: Taxonomies?
+  name = "Josh Marks"
+  homepage = "https://joshmarks.xyz"
 
 [params]
   description = "Distill Hugo Theme Demo"
